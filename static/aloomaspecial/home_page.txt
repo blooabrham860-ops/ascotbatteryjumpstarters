@@ -1,0 +1,172 @@
+    <br><br><br><br>
+
+<div id="faq-section" class="faq-section-wrapper">
+
+  <style>
+    /* ============== Scoped FAQ styles ============== */
+    .faq-section-wrapper {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #715215 0%, #17568e 50%, #50642c 100%);
+      border-radius: 16px;
+      color: #e0e0e0;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      margin: 0 15px;
+    }
+
+    .faq-section-wrapper .faq-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: antiquewhite;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-section-wrapper .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .faq-section-wrapper .faq-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .faq-section-wrapper .faq-item {
+      background: rgba(255,255,255,0.92);
+      color: #222;
+      padding: 1.6rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .faq-section-wrapper .faq-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+
+    .faq-section-wrapper .faq-question {
+      margin: 0 0 0.9rem 0;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: #0d47a1;
+      line-height: 1.35;
+    }
+
+    .faq-section-wrapper .faq-answer {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Make the image side sticky/fixed on scroll */
+    .faq-section-wrapper .faq-image-side {
+      position: sticky;
+      top: 20px; /* Adjust this value if you have a fixed navbar/header (e.g., 80px or 100px) */
+      align-self: start; /* Keeps it aligned to the top of the grid row */
+      height: fit-content; /* Prevents stretching */
+    }
+
+    .faq-section-wrapper .faq-image-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+
+    /* Mobile: Disable sticky behavior and revert to normal flow */
+    @media (max-width: 992px) {
+      .faq-section-wrapper .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .faq-section-wrapper .faq-title {
+        font-size: 2.1rem;
+      }
+
+      .faq-section-wrapper .faq-image-side {
+        position: static; /* No sticky on mobile */
+        top: auto;
+      }
+    }
+  </style>
+
+  <div class="faq-wrapper">
+    <h2 class="faq-title" style="font-size: 35px;">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <!-- Left column - Questions & Answers -->
+      <div class="faq-content">
+        <div class="faq-item">
+          <h4 class="faq-question">1. Do you jump-start cars using another car battery?</h4>
+          <div class="faq-answer">
+            No. We do not rely on another vehicle’s battery for jump-starts. Our technicians use professional-grade jump starters designed specifically for roadside assistance. These tools provide controlled power, reduce the risk of voltage spikes, and protect your vehicle’s electrical system. This approach is safer for modern vehicles and eliminates the risk of damage that can come from traditional car-to-car jump-starting.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">2. Do I need to be present when I call for a jump-start?</h4>
+          <div class="faq-answer">
+            Yes, in most cases, we require the vehicle owner or an authorized representative to be present at the time of service. This allows us to confirm vehicle access, ensure safety, and get approval before performing the jump-start or any additional service. If you’re unable to be present, let us know in advance; alternative arrangements may be possible depending on the situation and vehicle access.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">3. What happens if I need an extra cleaning service before my scheduled day?</h4>
+          <div class="faq-answer">
+            We understand that sometimes usage is higher than anticipated. If you find your unit needs an additional service, just give our office a call. We can dispatch a truck for an unscheduled service call for an additional fee.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">4. Can I call you for battery installation only if I already have a battery?</h4>
+          <div class="faq-answer">
+            Yes. If you already have a compatible battery, our technician can come to your location and handle the installation for you. We’ll confirm the battery fits your vehicle, install it correctly, and test the system to make sure everything is working as it should before we leave.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">5. Do you jump-start cars using another car battery?</h4>
+          <div class="faq-answer">
+            No. We do not rely on another vehicle’s battery for jump-starts. Our technicians use professional-grade jump starters designed specifically for roadside assistance. These tools provide controlled power, reduce the risk of voltage spikes, and protect your vehicle’s electrical system. This approach is safer for modern vehicles and eliminates the risk of damage that can come from traditional car-to-car jump-starting.
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif">
+          <a href="tel:870-361-8387" class="btn-hover-bg btn btn-secondary text-white py-2 px-4 me-3" style="background-color: red; border: solid white; font-size:medium;">CLICK HERE TO CALL US (870) 361-8387</a>
+        </div>
+      </div>
+
+      <!-- Right column - Image (now sticky on desktop) -->
+      <div class="faq-image-side">
+        <img src="static/img/lockley.jpg" alt="Portable restroom unit" />
+      </div>
+    </div>
+  </div>
+</div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            aloomaidallfotter
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            aloomaidallfottecity
+        </div>
+        </section>
+    </div>
